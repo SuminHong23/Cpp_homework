@@ -2,7 +2,7 @@
 #include <fstream>
 using namespace std;
 int main() {
-    const char* firstFile = "C:\\c++\\numbers.txt";
+    const char* firstFile = "C:\\c++_homework\\txt\\numbers.txt";
     fstream fin(firstFile, ios::in);
     if (!fin) {
         cout << firstFile << "열기 오류";
@@ -18,6 +18,4 @@ int main() {
     avg = (double)sum / count;
     cout << "count=" << count << " average=" << avg << endl;
     fin.close();
-    
-
 }
