@@ -1,0 +1,3 @@
+sumin 100 80 75
+gildong 92 80 77
+chunhyang 70 75 85
